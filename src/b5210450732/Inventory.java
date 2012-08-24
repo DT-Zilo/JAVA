@@ -1,4 +1,9 @@
-// ไม่รู้จะให้คะแนนตรงไหน
+// Attribute        0
+// Constructor      0
+// Methods          0
+// Main Program     0
+//
+// Total            0#
 
 package b5210450732;
 
@@ -6,9 +11,9 @@ public class Inventory
 {
     public static void main (String[] args)
     {
-        int productCode = 1001;
+        int productCode = 1001; 
         productName[30] string; // Error
-        int productStock;
+        int productStock; 
         int i;
 
         productCode = new productCode(); // Error
@@ -23,8 +28,8 @@ public class Inventory
 		
         class productCode
         {
-                int a = 1001;
-                int i;
+            int a = 1001;
+            int i;
         }
     }
 }
