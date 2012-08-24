@@ -1,14 +1,11 @@
 package b5210450732;
 
-
-public class firstStock<string> {
-
-	public firstStock() {
-		// TODO Auto-generated constructor stub
-		int productCode;
-		string productName;
-		int productStock;
-		
-	}
-
+public class firstStock<string> // ??? What is this
+{
+    public firstStock() 
+    {
+        int productCode;
+        string productName;
+        int productStock;
+    }
 }
