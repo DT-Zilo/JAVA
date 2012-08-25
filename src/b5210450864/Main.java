@@ -12,7 +12,6 @@ public class Main
 
     public static void main(String[] args) 
     {
-        
         public callMethod() // Method ซ้อน Method เตือนไปหลายครั้งมาก
         {
             nameInventory name = new nameInventory; // Error
