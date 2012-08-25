@@ -9,13 +9,13 @@ package b5210450872;
 
 public class Inventory 
 {
-    static int name1; // -------
+    static int name1; // --------
     static int name2; // รวม 0 point name is String
-    static int name3; // -------
+    static int name3; // --------
     
-    static int code1; // -------
+    static int code1; // --------
     static int code2; // รวม 2 point
-    static int code3; // -------
+    static int code3; // --------
     
     static int count; // 6 point
 
