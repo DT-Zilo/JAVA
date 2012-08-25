@@ -6,9 +6,9 @@ import java.util.Scanner;
 
 public class Inventory {
 
-	ArrayList<String> nameItem = new ArrayList<String>();
-	ArrayList<Integer> valItem = new ArrayList<Integer>();
-	Integer menuC,ValItemEdit,nl,menuEdit,n=1;
+	ArrayList<String> nameItem = new ArrayList<String>(); // 2 point
+	ArrayList<Integer> valItem = new ArrayList<Integer>(); // 2 point
+	Integer menuC,ValItemEdit,nl,menuEdit,n=1; // 2 point
 	Boolean b = true;
 	String nameItemEdit;
 	Scanner sn = new Scanner(System.in);
