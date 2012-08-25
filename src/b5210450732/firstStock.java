@@ -1,6 +1,6 @@
 package b5210450732;
 
-public class firstStock<string> // ??? What is this
+public class firstStock<string> // Error
 {
     public firstStock() // 0 point
     {
