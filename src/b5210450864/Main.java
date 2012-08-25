@@ -1,4 +1,9 @@
-// ไม่รู้จะให้คะแนนตรงไหน
+// Attribute        6
+// Constructor      0
+// Methods          0
+// Main Program     0
+//
+// Total            6#
 
 package b5210450864;
 

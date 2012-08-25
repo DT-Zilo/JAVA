@@ -1,4 +1,3 @@
-// ไม่รู้จะให้คะแนนตรงไหน
 
 package b5210450864;
 
@@ -9,23 +8,26 @@ public class Inventory
 {
     private Scanner sc;
 
-    String name1,name2,name3;
-    int id1,id2,id3;
-    int value1,value2,value3;
+    String name1,name2,name3; // 2 point
+    int id1,id2,id3; // 2 point
+    int value1,value2,value3; // 2 point
+    
+    // มี attribute ครบ 3 ตัว 6 point
 
     public int idInventory()
     {
         for (int i = 0; i <= 2; i++) 
         {
-                sc = new Scanner(System.in);
-                sc = name(i);	// Error
+                sc = new Scanner(System.in); // ไม่ได้ใช้อะไร
+                sc = name(i); // Error
 
         }
     }
 	
     public String nameInventory()
     {
-        int[] name= new int[2];
+        int[] name = new int[2];
+        
         for (int j = 0; j <= 2; j++) 
         {
             sc = new Scanner(System.in);
@@ -33,7 +35,6 @@ public class Inventory
             // ไม่ได้ทำอะไรเลย
             
         }
-
     }
 	
     public int valueInventory()
