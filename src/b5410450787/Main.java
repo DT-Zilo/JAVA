@@ -32,7 +32,9 @@ public class Main {
 		}
 		
 		
-	}while(h!=5);
+	}
+	
+	while(h!=5);
 	System.out.println("Thank you for use.");
 
 	}
