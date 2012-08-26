@@ -38,4 +38,5 @@ public class Inventory
             System.out.println("instock ="+count[k]);
         }   
     }
+    
 }
