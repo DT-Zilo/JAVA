@@ -61,4 +61,5 @@ public class Inventory
             System.out.print((i+1)+"."+x.get(i)+" have "+(n.get(i)+1)+"  ");
         }
     }
+    
 }
