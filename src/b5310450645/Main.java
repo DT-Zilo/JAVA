@@ -1,3 +1,10 @@
+// Attribute        10
+// Constructor      0
+// Methods          18
+// Main Program     25
+//
+// Total            43#
+
 package b5310450645;
 
 

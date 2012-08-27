@@ -8,11 +8,11 @@ public class Inventory {
 	public int[] pisePro ;
 	Scanner sc = new Scanner(System.in);
 	public int i=0, n=0 , m=0 ;
-	public int nPise;
-	public int coPro;
+	public int nPise; 
+	public int coPro; // 6 point
 	String[] namPro = new String[50];
-	String[] codPro = new String[4];
-	String[] naPro = new String[50];
+	String[] codPro = new String[4]; // 2 point
+	String[] naPro = new String[50]; // 2 point
 	String[] gnamPro = new String[50];
 	
 	
@@ -29,7 +29,7 @@ public class Inventory {
 			}
 	}
 	
-	public void getName(){
+	public void getName(){  // 4.33 point
 			i=0;
 			System.out.print("Enter Number Product : ");
 			gnamPro[n] = sc.next();
@@ -45,7 +45,7 @@ public class Inventory {
 			}
 	
 	
-	public void getEditName(){
+	public void getEditName(){ // 4.33 point
 		i=0;
 		System.out.print("Enter Number Product : ");
 		gnamPro[n] = sc.next();
@@ -59,7 +59,7 @@ public class Inventory {
 					}			
 			}
 	
-	public void getAddPise(){
+	public void getAddPise(){ // 5 point
 		i=0;
 		System.out.print("Enter Number Product : ");
 		gnamPro[n] = sc.next();
@@ -80,7 +80,7 @@ public class Inventory {
 	}
 	
 	
-	public void getTotal(){
+	public void getTotal(){  // 4.33 point
 		i=0;
 		System.out.print("Enter Number Product : ");
 		gnamPro[n] = sc.next();
