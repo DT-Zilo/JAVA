@@ -7,9 +7,9 @@ import java.util.Scanner;
 public class Inventory {
 
 	private Scanner sc;
-	ArrayList<String> x = new ArrayList<String>(10);
-	public int id = 1001;
-	public int[] amount = new int [999];
+	ArrayList<String> x = new ArrayList<String>(10); // 2 point
+	public int id = 1001; // 6 point
+	public int[] amount = new int [999]; // 2 point
 	public String name;    
 
 
@@ -30,7 +30,7 @@ public class Inventory {
 	}
 	
 	
-	public void callProduct(){
+	public void callProduct(){ // 4.33 point
 			System.out.println(x.get(0));
 			System.out.println(x.get(1));
 			System.out.println(x.get(2));
@@ -41,18 +41,18 @@ public class Inventory {
 	public void editName(){
 		
 	}
-	public void addAmount(){
+	public void addAmount(){ // 0 point
 		for (int i =0 ;i <3 ; i++){
 		System.out.println("Enter new amount of product: ");
 		amount[i] = sc.nextInt();
 		}
 	}
 	public int amountTotal;
-	public void callAmount(){
+	public void callAmount(){ // 0 point
 		amountTotal=amount[0]+amount[1]+amount[2];
 		System.out.println("Total amount of product: "+ amountTotal);
 	}
-	public void printResult(){
+	public void printResult(){ // 4.33 point
 		for (int i =0 ;i <3 ; i++)
 		System.out.println(x.get(i)+","+amount[i]);
 		
