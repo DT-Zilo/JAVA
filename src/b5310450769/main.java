@@ -1,3 +1,10 @@
+// Attribute        12
+// Constructor      0
+// Methods          0
+// Main Program     0
+//
+// Total            12#
+
 package b5310450769;
 import java.util.Scanner;
 public class main{
