@@ -1,3 +1,10 @@
+//Attribute: 0
+//Constructor: 0
+//Method: 0
+//Main: 0
+//
+//Total: 0
+
 package b5410450426;
 
 import java.text.StringCharacterIterator;
