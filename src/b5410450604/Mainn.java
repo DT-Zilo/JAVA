@@ -1,3 +1,10 @@
+//Attribute: 18
+//Constructor: 12
+//Method: 47.5
+//Main: 45
+
+//Total: 107.5
+
 package b5410450604;
 
 import java.util.Scanner;
