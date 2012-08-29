@@ -1,3 +1,10 @@
+//Attribute: 6
+//Constructor: 2
+//Method: 0
+//Main: 0
+//
+// Total: 8
+
 package b5410450736;
 
 
