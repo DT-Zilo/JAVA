@@ -1,7 +1,4 @@
-//Attribute: 0 	เหมือน 329
-//Constructor: 0
-//Method: 0
-//Main: 0
+//เหมือน 329
 
 package b5410450264;
 
