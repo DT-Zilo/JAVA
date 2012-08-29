@@ -3,7 +3,7 @@
 //Method: 18
 //Main: 40
 //
-//Total: 60
+//Total: 70
 
 package b5410450728;
 
