@@ -1,3 +1,8 @@
+//Attribute: 15
+//Constructor: 15
+//Method: 39
+//Main: 45
+
 package b5410450329;
 
 import java.util.ArrayList;
