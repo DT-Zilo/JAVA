@@ -1,3 +1,5 @@
+// 32 point
+
 package test;
 
 public class Main {
