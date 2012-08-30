@@ -4,9 +4,9 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Inventory {
-	ArrayList<Integer> idnum = new ArrayList<Integer>();
-	ArrayList<String> idname = new ArrayList<String>();
-	int  product[] = {1,5,10} ;
+	ArrayList<Integer> idnum = new ArrayList<Integer>(); // 2
+	ArrayList<String> idname = new ArrayList<String>(); // 2
+	int  product[] = {1,5,10} ; // 2 
 	private int total = 16 ;
 	private int n = 0 ;
 	private int mem = 0 ;
