@@ -4,12 +4,12 @@ import java.util.Scanner;
 
 
 public class Inventory {
-	private String name;
-	private int n;
-	private int[]code;
+	private String name; // 6 point
+	private int n; // 6 point
+	private int[]code; // 2 point
 	private int i=1;
 	private int choice;
-	private String namepair;
+	private String namepair; 
 	private int sum ;
 	private int out=99999;
 	Scanner sc = new Scanner(System.in);
@@ -45,7 +45,7 @@ System.out.print("Choice1=Namesinka Choice2=Pairnamesinka Choice3=AddSinka Choic
 		}
 		
 	}
-	public void nameSinka(){
+	public void nameSinka(){ // 0
 		
 		System.out.println("Put NameSinka 3 name:");
 		for(i=1;i<=3;i++){
