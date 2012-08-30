@@ -1,3 +1,5 @@
+// 30
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -9,9 +11,9 @@ int seriala = 1001 ;
 String name;
 static String name2;
 static Scanner sc = new Scanner(System.in);
-static ArrayList<String> ch = new ArrayList<String>();
-static ArrayList<Integer> num = new ArrayList<Integer>();
-static ArrayList<Integer> id = new ArrayList<Integer>();
+static ArrayList<String> ch = new ArrayList<String>(); // 2
+static ArrayList<Integer> num = new ArrayList<Integer>(); // 2
+static ArrayList<Integer> id = new ArrayList<Integer>(); // 2
 	/**
 	 * @param args
 	 */
@@ -48,12 +50,12 @@ static ArrayList<Integer> id = new ArrayList<Integer>();
 		
 	}
 	
-	public static void callItem(){
+	public static void callItem(){ // 4.33
 		for (String a : ch)
 		System.out.println(a);
 	
 	}
-	public static void reItem(){
+	public static void reItem(){ // 4.33
 		System.out.println("which you want to edit");int i=1;
 		for(String c : ch){
 			System.out.println(i+". "+c);i++;}
@@ -67,7 +69,7 @@ static ArrayList<Integer> id = new ArrayList<Integer>();
 			
 		}*/
 	}
-	public static void addItem(){
+	public static void addItem(){ // 5
 		System.out.println("which you want to edit");int i=1;
 		for(String c : ch){System.out.println(i+". "+c);i++;}
 		int b = sc.nextInt();
@@ -78,7 +80,7 @@ static ArrayList<Integer> id = new ArrayList<Integer>();
 	}
 		
 	}
-	public static void checkItem(){
+	public static void checkItem(){ // 4.33
 		for(int i=0;i<3;i++){
 			System.out.println(id.get(i)+"\t"+ch.get(i)+"\t"+num.get(i));
 		}
