@@ -8,9 +8,9 @@ import java.util.Scanner;
 
 public class Inventory {
 
-	public double code;
-	public String name;
-	public int num;
+	public double code; //6
+	public String name; // 6
+	public int num; // 6
 	
 	public Inventory(){
 		
@@ -20,7 +20,7 @@ public class Inventory {
 
 	}
 	
-	public String callname(){
+	public String callname(){ // 0
 		String r;
 		Scanner sc = new Scanner(System.in);
 		for(int i = 0;i<3;i++){
@@ -46,7 +46,7 @@ public class Inventory {
 		return d;
 	}
 	
-	public int changenum(){
+	public int changenum(){ // 5
 		int a;
 		System.out.println("Changenum ");
 		Scanner sc = new Scanner(System.in);
@@ -58,7 +58,7 @@ public class Inventory {
 	}
 	
 	
-	public void callnum(){
+	public void callnum(){ // 4.33
 	
 		
 		System.out.println("Call num"+num);
