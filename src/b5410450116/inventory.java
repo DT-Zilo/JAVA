@@ -3,34 +3,34 @@ import java.util.Scanner;
 
 public class inventory {
 	public Scanner sc;
-	public int code;
-	public int value;
-	public String name;
-	public int number;
-	public int a[] = new int[3];
-	public String b[] = new String[3];
-	public int c[] = new int[3];
+	public int code; // 
+	public int value; // 
+	public String name; // 
+	public int number; 
+	public int a[] = new int[3]; // 2
+	public String b[] = new String[3]; // 2
+	public int c[] = new int[3]; // 2
 	public int list;
-	public inventory(){
+	public inventory(){ // 0
 		sc = new Scanner(System.in);
 		code = 1001;}
 	public void add(){
 		
 		for(int i= 0;i<3;++i){
 			name = sc.next();
-			b[i] = name;
+			b[i] = name; // 2
 			value = sc.nextInt();
-			a[i] = value;
-			c[i] = code+i;	}
+			a[i] = value; // 2
+			c[i] = code+i;	} // 2
 	}
-		public void getname(){
+		public void getname(){ // 4.33
 			System.out.println("what unit:");
 			number = sc.nextInt();
 			int x = number;
-			System.out.println(b[x]);
+			System.out.println(b[x]); 
 			
 		}
-       public void changename(){
+       public void changename(){ // 4.33
     	   System.out.println("what unit:");
     	   number = sc.nextInt();
     	   int x = number;
@@ -38,14 +38,14 @@ public class inventory {
     	   System.out.println("new name is:"+b[x]);
     	   
        }
-       public void addvalue(){
+       public void addvalue(){ // 5
     	   System.out.println("what unit do you want to add:");
     	   number = sc.nextInt();
     	   int x = number;
     	   a[x] = a[x]+value;
     	   System.out.println("new value is:"+a[x]);
        }
-       public void getvalue(){
+       public void getvalue(){ // 4.33
     	   System.out.println("what unit do you want to see:");
     	   number = sc.nextInt();
     	   int x = number;
