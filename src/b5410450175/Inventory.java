@@ -1,4 +1,4 @@
-// 30
+// 70
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -17,7 +17,7 @@ static ArrayList<Integer> id = new ArrayList<Integer>(); // 2
 	/**
 	 * @param args
 	 */
-	public static void main(String[] args) {
+	public static void main(String[] args) { // 40
 		// TODO Auto-generated method stub
 		
 
