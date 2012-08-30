@@ -1,3 +1,5 @@
+// 0
+
 package b5310450921;
 
 import java.util.Scanner;
