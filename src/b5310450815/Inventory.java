@@ -1,3 +1,5 @@
+// Total 0
+
 package b5310450815;
 
 import java.lang.reflect.Constructor;
