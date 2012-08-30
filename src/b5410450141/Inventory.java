@@ -1,3 +1,5 @@
+// 20
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -32,11 +34,11 @@ public class Inventory {
 		int j = 0;
 		while(j!=5){
 			System.out.println("Your order" );
-			System.out.println("1:เรียกดูชื่อสินค้า" );
-			System.out.println("2:แก้ไขชื่อสินค้า" );
-			System.out.println("3:เพิ่มจำนวนสินค้า" );
-			System.out.println("4:เรียกดูจำนวนสินค้า" );
-			System.out.println("5:ออกจากโปรแกรม" );
+			System.out.println("1:๏ฟฝ๏ฟฝ๏ฟฝยก๏ฟฝูช๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝิน๏ฟฝ๏ฟฝ๏ฟฝ" );
+			System.out.println("2:๏ฟฝ๏ฟฝ๏ฟฝไขช๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝิน๏ฟฝ๏ฟฝ๏ฟฝ" );
+			System.out.println("3:๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝำนวน๏ฟฝิน๏ฟฝ๏ฟฝ๏ฟฝ" );
+			System.out.println("4:๏ฟฝ๏ฟฝ๏ฟฝยก๏ฟฝูจำนวน๏ฟฝิน๏ฟฝ๏ฟฝ๏ฟฝ" );
+			System.out.println("5:๏ฟฝอก๏ฟฝาก๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ" );
 			System.out.printf("Enter your do"+":" );
 			int play = sc.nextInt();
 		switch(play){
