@@ -4,11 +4,11 @@ import java.util.Scanner;
 
 public class Inventory {
 	Scanner sc = new Scanner(System.in);
-	ArrayList<String> name = new ArrayList<String>();
-	ArrayList<Integer> key = new ArrayList<Integer>();
-	ArrayList<Integer> value = new ArrayList<Integer>();
+	ArrayList<String> name = new ArrayList<String>(); // 2
+	ArrayList<Integer> key = new ArrayList<Integer>(); // 2
+	ArrayList<Integer> value = new ArrayList<Integer>(); // 2
 	int countkey = 1000;
-	public Inventory(){
+	public Inventory(){ // 6
 		System.out.println("How many product that u want to Input : ");
 		int x = sc.nextInt();
 		for(int j=0;j<x;j++){
@@ -24,10 +24,10 @@ public class Inventory {
 							}
 		
 		}
-	public void getProductname() {
+	public void getProductname() { // 4.33
 		System.out.println("Product Key: "+key+" Product name :"+name);
 	}
-	public void changeProductname() {
+	public void changeProductname() { // 4.33
 			System.out.println("Product name :"+name);
 			System.out.print("Choose Position [1,2,3,4,...] of Product that u wanna change :");
 			int choose = sc.nextInt();
@@ -37,7 +37,7 @@ public class Inventory {
 			String newc = sc.next();
 			name.set(choose, newc);
 			}
-	public void addmoreValue(){
+	public void addmoreValue(){ // 5
 		System.out.println("///Add Product Value//");
 			System.out.println("Choose Position [1,2,3,4,...] of Product: "+name);
 			int choosenum = sc.nextInt();
@@ -49,7 +49,7 @@ public class Inventory {
 			value.set(choosenum, add);
 							}
 			
-	public void getValue(){
+	public void getValue(){ // 4.33
 			System.out.println("Product name :"+name+" has : "+value+" ea.");}
 	}
 
