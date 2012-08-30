@@ -1,3 +1,4 @@
+// 0
 
 import java.util.Scanner;
 	
@@ -26,7 +27,7 @@ public class Inventory {
 		}
 	public void nproduct(){
 		System.out.println("Product of number : ");
-		for(i=1;i<=10;i++) //ÃÑº¨Ó¹ÇÊÔ¹¤éÒà¢éÒÁÒáÅéÇ»ÃÑºà¾ÔèÁµÒÁ¨Ó¹Ç¹ÊÔ¹¤éÒµÒÁ¤èÒ·ÕèÃÑºÁÒ
+		for(i=1;i<=10;i++) //ï¿½Ñºï¿½Ó¹ï¿½ï¿½Ô¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç»ï¿½Ñºï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ó¹Ç¹ï¿½Ô¹ï¿½ï¿½Òµï¿½ï¿½ï¿½ï¿½Ò·ï¿½ï¿½ï¿½Ñºï¿½ï¿½
 			number = sc.nextInt();
 		if(numberproduct==1);
 		    number = sc.nextInt();
