@@ -1,3 +1,5 @@
+// 78
+
 import java.util.Scanner;
 
 public class MainInventory {
