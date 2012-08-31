@@ -1,3 +1,5 @@
+// 169
+
 import java.util.Scanner;
 
 
@@ -10,14 +12,14 @@ public class Main {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
 		Inventory[] bell = new Inventory[3];
-		for(int i = 0 ; i<3 ;i++){ //Ç¹ÃÑº¤èÒ
+		for(int i = 0 ; i<3 ;i++){ //Ç¹ï¿½Ñºï¿½ï¿½ï¿½
 			
 		System.out.print("Enter name Product "+(i+1)+" : ");
 		String n ;
 		n = sc.next();
 		bell[i] = new Inventory(i,n);
 		
-		System.out.print("Edit Name Product (y/n) : "); //µéÍ§¡ÒÃá¡éä¢ÊÔ¹¤éÒÍÕ¡äËÁ ?
+		System.out.print("Edit Name Product (y/n) : "); //ï¿½ï¿½Í§ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô¹ï¿½ï¿½ï¿½ï¿½Õ¡ï¿½ï¿½ï¿½ ?
 		String c ;
 		c = sc.next();
 		if(c.equals("y")){
@@ -27,12 +29,12 @@ public class Main {
 			bell[i].editName(n1);
 		}
 		
-		System.out.print("Add Number Product :"); // à¾ÔèÁ ¨Ó¹Ç¹ÊÔ¹¤éÒ
+		System.out.print("Add Number Product :"); // ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ó¹Ç¹ï¿½Ô¹ï¿½ï¿½ï¿½
 		int add;
 		add = sc.nextInt();
 		bell[i].addProdouct(add);
 		
-		System.out.print("Add Product (y/n) :"); //µéÍ§¡ÒÃà¾ÔèÁ¨ÓÃÇ¹ÊÔ¹¤éÒÍÕ¡äËÁ ?
+		System.out.print("Add Product (y/n) :"); //ï¿½ï¿½Í§ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç¹ï¿½Ô¹ï¿½ï¿½ï¿½ï¿½Õ¡ï¿½ï¿½ï¿½ ?
 		String d;
 		d = sc.next();
 		if(d.equals("y")){
@@ -44,7 +46,7 @@ public class Main {
 		System.out.println("*************************************");
 		}//for
 		System.out.println("*********** SHOW LIST ***************");
-		for(int i=0 ; i<3 ; i++){ //Ç¹áÊ´§¤èÒ
+		for(int i=0 ; i<3 ; i++){ //Ç¹ï¿½Ê´ï¿½ï¿½ï¿½ï¿½
 			
 			System.out.println("Name Product "+(i+1)+" : "+bell[i].dooName());
 			System.out.println("Code Product "+(i+1)+" : "+bell[i].doocode());
