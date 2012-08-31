@@ -1,3 +1,5 @@
+// 45
+
 import java.lang.invoke.SwitchPoint;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -32,7 +34,7 @@ public class main {
 			
 		
 			
-		System.out.print("1.àÃÕÂ¡´Ùª×èÍÊÔ¹¤éÒ \n2.á¡éä¢ª×èÍÊÔ¹¤éÒ\n3.à¾ÔèÁ¨Ó¹Ç¹ÊÔ¹¤éÒ \n4.àÃÕÂ¡´Ù¨Ó¹Ç¹ÊÔ¹¤éÒ\n >>> :");
+		System.out.print("1.ï¿½ï¿½ï¿½Â¡ï¿½Ùªï¿½ï¿½ï¿½ï¿½Ô¹ï¿½ï¿½ï¿½ \n2.ï¿½ï¿½ï¿½ä¢ªï¿½ï¿½ï¿½ï¿½Ô¹ï¿½ï¿½ï¿½\n3.ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ó¹Ç¹ï¿½Ô¹ï¿½ï¿½ï¿½ \n4.ï¿½ï¿½ï¿½Â¡ï¿½Ù¨Ó¹Ç¹ï¿½Ô¹ï¿½ï¿½ï¿½\n >>> :");
 		int oper =sc.nextInt();
 		
 		if(oper==1)
@@ -41,15 +43,15 @@ public class main {
 			 Scanner sc1 = new Scanner(System.in);
 			int a =sc1.nextInt();
 			  if(a==1001){
-				  System.out.printf(" ª×èÍÊÔ¹¤éÒ : %s\n",name.get(0));
+				  System.out.printf(" ï¿½ï¿½ï¿½ï¿½ï¿½Ô¹ï¿½ï¿½ï¿½ : %s\n",name.get(0));
 				  
 			   }
 			  else if (a==1002){
-				  System.out.printf(" ª×èÍÊÔ¹¤éÒ : %s\n",name.get(1));
+				  System.out.printf(" ï¿½ï¿½ï¿½ï¿½ï¿½Ô¹ï¿½ï¿½ï¿½ : %s\n",name.get(1));
 				  
 			  }
 			  else if (a==1003){
-				  System.out.printf(" ª×èÍÊÔ¹¤éÒ : %s\n",name.get(2));
+				  System.out.printf(" ï¿½ï¿½ï¿½ï¿½ï¿½Ô¹ï¿½ï¿½ï¿½ : %s\n",name.get(2));
 				  
 			  }
 			  else
