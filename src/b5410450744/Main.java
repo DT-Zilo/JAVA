@@ -1,3 +1,4 @@
+// 30
 
 public class Main {
 	
