@@ -1,3 +1,4 @@
+// 48
 package Tests;
 
 import java.util.Scanner;
