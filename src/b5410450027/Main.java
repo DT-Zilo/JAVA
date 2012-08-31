@@ -1,3 +1,5 @@
+// 94
+
 import java.util.Scanner;
 
 
@@ -11,7 +13,7 @@ public class Main {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter your Inventory");
 		int x = sc.nextInt();
-		Inventory k = new Inventory(x);
+		Inventory k = new Inventory(x); // error
 		
 		System.out.println("Enter name : ");
 		
