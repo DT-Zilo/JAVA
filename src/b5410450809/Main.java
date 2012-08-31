@@ -1,3 +1,4 @@
+//30
 
 import java.util.Scanner;
 
