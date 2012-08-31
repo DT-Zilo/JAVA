@@ -1,3 +1,4 @@
+//ลอก
 package junen;
 
 import java.util.Scanner;
