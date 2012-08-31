@@ -1,3 +1,5 @@
+// 64
+
 import java.util.Scanner;
 public class main {
 	static int choice,code,number1,number2,number3;
