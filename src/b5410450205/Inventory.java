@@ -14,9 +14,9 @@ public class Inventory {
 	
 	public Inventory(){
 		
-		code =1001;
-		name ="";
-		num =0;
+		code =1001; 
+		name =""; // 2
+		num =0; // 2
 
 	}
 	
